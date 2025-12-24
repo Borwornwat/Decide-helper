@@ -18,7 +18,7 @@ int main(int argc,char* argv[]){
         return 0;
     }
     if(strcmp(argv[1],"wheel") == 0){
-        printf("Type number od choice first then name of each choice.");
+        printf("Type number od choice first then name of each choice.\n");
         int max;
         printf("How many choice? (number): ");
         scanf("%d",&max);
