@@ -18,12 +18,13 @@ int main(int argc,char* argv[]){
         return 0;
     }
     if(strcmp(argv[1],"wheel") == 0){
+        printf("Type number od choice first then name of each choice.");
         int max;
-        printf("How many choice? : ");
+        printf("How many choice? (number): ");
         scanf("%d",&max);
         char wheel[max][100];
         for(int i=0; i<max; i++){
-            printf("choice: ");
+            printf("choice : ");
             scanf("%s",wheel[i]);
         }
         int m = (rand() % max);
